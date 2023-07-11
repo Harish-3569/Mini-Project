@@ -1,0 +1,28 @@
+import React from 'react'
+import  './Homel.css'
+function Home() {
+  return (
+    <><nav>
+      <div class="menu">
+        <div class="logo">
+          <a >Musify</a>
+        </div>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>create</a></li>
+          <li><a>PlayLists</a></li>
+          <li><a>Merge</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScE6v46M-gjyd5Fsnrrwie4tro7MDZK8VtYDWWrKy3tt5qftg/viewform?vc=0&c=0&w=1&flr=0">Feedback</a></li>
+        </ul>
+      </div>
+    </nav><div class="img"></div><div class="center">
+      <center><h1>GET RID OF STRESS,Let's Play the song you love!!</h1></center>
+                <div class="btns">
+          <button className='button-89'>OFFLINE</button>
+          <button className='button-89'>ONLINE</button>
+        </div>
+      </div></>
+  )
+}
+
+export default Home
