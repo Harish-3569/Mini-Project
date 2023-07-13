@@ -1,0 +1,32 @@
+jsx code:
+import React from 'react'
+import './Adminlogin.css'
+import {Link} from "react-router-dom"
+function NewLogin() {
+  return (
+    <div className='login-form '>
+      <body>
+        <div className='login-card'>
+        <h1>
+          User Registeration Portal
+        </h1>
+        <br></br>
+      <form>
+          PhoneNumber:
+          <br></br>
+          <input type='text'></input>
+          <br />
+          <br></br>
+          <button type='submit' className='button-85'><Link to="Intro">REGISTER</Link></button>
+      </form>
+      <br></br>
+      
+      </div>
+      </body>
+    </div>
+  )
+}
+
+export default NewLogin
+
+css code:
